@@ -21,7 +21,7 @@ section, summary, time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 110%;
+	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;}
 
@@ -112,13 +112,13 @@ input, select, textarea {
 /* Type */
 
 	html {
-		font-size: 16pt;
+		font-size: 18pt;
 	}
 
 		@media screen and (max-width: 1680px) {
 
 			html {
-				font-size: 12pt;
+				font-size: 14pt;
 			}
 
 		}
@@ -126,7 +126,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			html {
-				font-size: 12pt;
+				font-size: 14pt;
 			}
 
 		}
@@ -134,7 +134,7 @@ input, select, textarea {
 		@media screen and (max-width: 360px) {
 
 			html {
-				font-size: 12pt;
+				font-size: 14pt;
 			}
 
 		}
@@ -143,7 +143,7 @@ input, select, textarea {
 		color: #ffffff;
 		font-family: "Source Sans Pro", sans-serif;
 		font-weight: 300;
-		font-size: 1rem;
+		font-size: 1.2rem;
 		line-height: 1.65;
 	}
 
@@ -211,43 +211,43 @@ input, select, textarea {
 	}
 
 	h3 {
-		font-size: 1.25rem;
+		font-size: 1.4rem;
 	}
 
 	h4 {
-		font-size: 1.0rem;
+		font-size: 1.2rem;
 	}
 
 	h5 {
-		font-size: 0.8rem;
+		font-size: 1.0rem;
 	}
 
 	h6 {
-		font-size: 0.7rem;
+		font-size: 0.8rem;
 	}
 
 	@media screen and (max-width: 736px) {
 
 		h1 {
-			font-size: 1.75rem;
+			font-size: 2.0rem;
 			line-height: 1.4;
 		}
 
 		h2 {
-			font-size: 1.25em;
+			font-size: 1.7em;
 			line-height: 1.5;
 		}
 
 	}
 
 	sub {
-		font-size: 0.8rem;
+		font-size: 1.0rem;
 		position: relative;
 		top: 0.5rem;
 	}
 
 	sup {
-		font-size: 0.8rem;
+		font-size: 1.0rem;
 		position: relative;
 		top: -0.5rem;
 	}
@@ -263,7 +263,7 @@ input, select, textarea {
 		background: rgba(255, 255, 255, 0.075);
 		border-radius: 4px;
 		font-family: "Courier New", monospace;
-		font-size: 0.9rem;
+		font-size: 1.0rem;
 		margin: 0 0.25rem;
 		padding: 0.25rem 0.65rem;
 	}
@@ -271,7 +271,7 @@ input, select, textarea {
 	pre {
 		-webkit-overflow-scrolling: touch;
 		font-family: "Courier New", monospace;
-		font-size: 0.9rem;
+		font-size: 1.0rem;
 		margin: 0 0 2rem 0;
 	}
 
@@ -1299,7 +1299,7 @@ input, select, textarea {
 		}
 
 			#header .logo .icon:before {
-				font-size: 2rem;
+				font-size: 2.25rem;
 			}
 
 		#header .content {
@@ -1331,7 +1331,7 @@ input, select, textarea {
 			#header .content p {
 				text-transform: uppercase;
 				letter-spacing: 0.2rem;
-				font-size: 0.8rem;
+				font-size: 1.0rem;
 				line-height: 2;
 			}
 
@@ -1364,7 +1364,7 @@ input, select, textarea {
 					padding: 0 1.25rem 0 1.45rem;
 					text-transform: uppercase;
 					letter-spacing: 0.2rem;
-					font-size: 0.8rem;
+					font-size: 1.0rem;
 					border-bottom: 0;
 				}
 
