@@ -263,8 +263,15 @@
 
 				    <!-- Footer -->
 					<footer id="footer">
-						<p class="copyright">&copy; Ahmed Shaban 2023. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+						<p class="copyright">&copy; Ahmed Shaban <span id="currentYear"></span>. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
 					</footer>
+					
+					<script>
+						// Get the current year
+						const year = new Date().getFullYear();
+						// Set the year in the span with id 'currentYear'
+						document.getElementById('currentYear').textContent = year;
+					</script>
 
 			</div>
 
